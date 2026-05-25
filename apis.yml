@@ -1,0 +1,98 @@
+aid: quera
+name: QuEra Computing
+description: >-
+  QuEra Computing is a Boston-area neutral-atom quantum computing company,
+  founded in 2021 by scientists from Harvard and MIT. Its flagship system,
+  Aquila, is a 256-qubit field-programmable analog neutral-atom quantum
+  processor that has been publicly available since November 2022 through
+  Amazon Braket and through a direct Premium Access channel. QuEra develops
+  Bloqade, an open-source software stack for neutral-atom quantum computing
+  delivered as a Python SDK (Bloqade Python) and as the original Bloqade.jl
+  Julia package, along with surrounding tooling for circuits, analog control,
+  atom shuttling, decoders, and tensor-network simulation. The company is
+  building toward fault-tolerant quantum computing with its Gemini-class
+  next-generation systems and has demonstrated logical-level magic state
+  distillation on neutral-atom hardware. QuEra works with HPC centers,
+  national labs (NERSC, Los Alamos), DARPA, NEDO/AIST, NVIDIA, AWS, BCG X,
+  Deloitte, Classiq, Kipu Quantum, Wolfram Research, and enterprise
+  customers including BP, BASF, Merck, and Amgen. The system is consumed
+  via the Bloqade SDK or AWS Braket; QuEra does not currently expose a
+  public REST API to its QPU.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Quantum Computing
+  - Neutral Atom
+  - Aquila
+  - Bloqade
+  - QPU
+  - Analog Quantum
+  - Quantum Error Correction
+  - Fault Tolerance
+  - Rydberg
+  - Quantum SDK
+  - AWS Braket
+  - Scientific Computing
+  - High Performance Computing
+  - Research
+url: https://raw.githubusercontent.com/api-evangelist/quera/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.quera.com
+  - type: Aquila
+    url: https://www.quera.com/aquila
+  - type: Documentation
+    url: https://docs.quera.com
+  - type: BloqadeDocumentation
+    url: https://bloqade.quera.com
+  - type: GitHubOrganization
+    url: https://github.com/QuEraComputing
+  - type: SDK
+    url: https://github.com/QuEraComputing/bloqade
+  - type: SDK
+    url: https://github.com/QuEraComputing/bloqade-analog
+  - type: SDK
+    url: https://github.com/QuEraComputing/Bloqade.jl
+  - type: AWSBraket
+    url: https://aws.amazon.com/braket/quantum-computers/quera/
+  - type: Pricing
+    url: https://aws.amazon.com/braket/pricing/
+  - type: CoDesign
+    url: https://www.quera.com/co-design
+  - type: Consultation
+    url: https://www.quera.com/request-a-quantum-consultation
+  - type: Publications
+    url: https://www.quera.com/publications
+  - type: Education
+    url: https://github.com/QuEraComputing/quera-education
+  - type: Examples
+    url: https://github.com/QuEraComputing/QuEra-braket-examples
+  - type: Tutorials
+    url: https://github.com/QuEraComputing/QRC-tutorials
+  - type: Blog
+    url: https://www.quera.com/blog
+  - type: Newsroom
+    url: https://www.quera.com/news
+  - type: Company
+    url: https://www.quera.com/about-us
+  - type: Careers
+    url: https://www.quera.com/careers
+  - type: Contact
+    url: https://www.quera.com/contact-us
+  - type: Email
+    url: mailto:info@quera.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/quera-computing-inc
+  - type: Twitter
+    url: https://twitter.com/QueraComputing
+  - type: YouTube
+    url: https://www.youtube.com/@QuEraComputing
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
