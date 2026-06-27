@@ -53,11 +53,11 @@ common:
     url: https://bloqade.quera.com
   - type: GitHubOrganization
     url: https://github.com/QuEraComputing
-  - type: SDK
+  - type: SDKs
     url: https://github.com/QuEraComputing/bloqade
-  - type: SDK
+  - type: SDKs
     url: https://github.com/QuEraComputing/bloqade-analog
-  - type: SDK
+  - type: SDKs
     url: https://github.com/QuEraComputing/Bloqade.jl
   - type: AWSBraket
     url: https://aws.amazon.com/braket/quantum-computers/quera/
