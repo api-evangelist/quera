@@ -43,6 +43,8 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/quera-domain-security.yml
   - type: Website
     url: https://www.quera.com
   - type: Aquila
