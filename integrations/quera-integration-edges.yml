@@ -1,0 +1,34 @@
+edges:
+- partner_name: Amazon Braket (AWS)
+  partner: amazon-braket
+  partner_match: aggregator
+  type: marketplace
+  marketplace: amazon-braket
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/braket/quantum-computers/quera/
+  seller_name: QuEra
+  devices:
+  - Aquila
+  contract_reference:
+    register: Amazon Braket supported devices (docs.aws.amazon.com braket-devices + aws.amazon.com/braket/quantum-computers)
+    spec_file: null
+    role: quantum-cloud-distribution
+    registered_name: QuEra
+    matched_domain: quera.com
+    matched_by: domain+name-among-holders
+    domain_source: braket provider page own-site link
+    signal_note: selling QPU access through a quantum cloud is distribution, kept out of position shares
+    detected_by: sweep-quantum-computing.py
+    detected: '2026-10-20'
+  detected_by: sweep-quantum-computing.py
+  detected: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://aws.amazon.com/braket/quantum-computers/
+- https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html
+checked:
+- https://aws.amazon.com/braket/quantum-computers/
+- https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html
