@@ -1,4 +1,4 @@
-# quera
+# QuEra Computing
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-QuEra Computing — Boston-area neutral-atom quantum computing (Aquila, Bloqade)
+QuEra Computing is a Boston-area neutral-atom quantum computing company, founded in 2021 by scientists from Harvard and MIT. Its flagship system, Aquila, is a 256-qubit field-programmable analog neutral-atom quantum processor that has been publicly available since November 2022 through Amazon Braket and through a direct Premium Access channel. QuEra develops Bloqade, an open-source software stack for neutral-atom quantum computing delivered as a Python SDK (Bloqade Python) and as the original Bloqade.jl Julia package, along with surrounding tooling for circuits, analog control, atom shuttling, decoders, and tensor-network simulation. The company is building toward fault-tolerant quantum computing with its Gemini-class next-generation systems and has demonstrated logical-level magic state distillation on neutral-atom hardware. QuEra works with HPC centers, national labs (NERSC, Los Alamos), DARPA, NEDO/AIST, NVIDIA, AWS, BCG X, Deloitte, Classiq, Kipu Quantum, Wolfram Research, and enterprise customers including BP, BASF, Merck, and Amgen. The system is consumed via the Bloqade SDK or AWS Braket; QuEra does not currently expose a public REST API to its QPU.
+
+**Areas:** Quantum Computing · Neutral Atom · Aquila · Bloqade · QPU · Analog Quantum · Quantum Error Correction · Fault Tolerance · Rydberg · Quantum SDK · AWS Braket · Scientific Computing
+
+## QuEra Computing on APIs.io
+
+Everything profiled for QuEra Computing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quera/](https://apis.io/providers/quera/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Quera Domain Security](https://apis.io/security/quera/quera-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.quera.com)
+- [Documentation](https://docs.quera.com)
+- [Pricing](https://aws.amazon.com/braket/pricing/)
+- [Blog](https://www.quera.com/blog)
+- [GitHub](https://github.com/QuEraComputing)
+
+## API Evangelist rating
+
+**Kin Score 12.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 6.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 1.3** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quera/](https://apis.io/providers/quera/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for QuEra Computing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quera/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
